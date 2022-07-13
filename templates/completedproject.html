@@ -1,0 +1,1131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+
+  <title>HELLO WORLD!</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light" >
+    <div class="container-fluid" >
+
+      <img id="logoimage" src= {{ user_image }} alt="error" width="35vw" style="border: 2px solid black; border-radius: 50px; " >
+      <a class="navbar-brand" style="font-family: 'Shrikhand', cursive; font-size: 23px;" href="#">Radhe Construction</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">AboutUs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Project
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="completedproject.html">Completed Projects</a></li>
+              <li><a class="dropdown-item" href="runningproject.html">Running Projects</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="career.html">Careers</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <img src="https://wallpaperaccess.com/full/1802071.jpg" style="width: 100%; height: 500px" alt="">
+
+<br>
+<br>
+  <h1 class="text-center font-weight-bold mb-4 pb-2" style="background-color: rgba(0, 0, 0, 0.779); color: white; font-size: 10vh;">
+    completed Project</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="space" style="margin: 5%;"> 
+
+  <div class="row align-items-center">
+
+
+    <div class="col-lg-5">
+
+      <section>
+        <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+
+          <head>
+            <title>Slideshow Images</title>
+            <style>
+              .slider {
+                width: 500px;
+                height: 300px;
+                background-color: yellow;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0px;
+                text-align: center;
+                overflow: hidden;
+              }
+
+              .image-container {
+                width: 1500px;
+                background-color: pink;
+                height: 300px;
+                clear: both;
+                position: relative;
+                -webkit-transition: left 2s;
+                -moz-transition: left 2s;
+                -o-transition: left 2s;
+                transition: left 2s;
+              }
+
+              .slide {
+                float: left;
+                margin: 0px;
+                padding: 0px;
+                position: relative;
+              }
+
+              #slide-e1:target~.image-container {
+                left: 0px;
+              }
+
+              #slide-e2:target~.image-container {
+                left: -500px;
+              }
+
+              #slide-e3:target~.image-container {
+                left: -1000px;
+              }
+
+              .buttons {
+                position: relative;
+                top: -20px;
+              }
+
+              .buttons a {
+                display: inline-block;
+                height: 15px;
+                width: 15px;
+                border-radius: 50px;
+                background-color: lightgreen;
+              }
+            </style>
+          </head>
+
+          <body>
+            <div class="slider" style="width: 100%; max-width: 500px; ">
+              <span id="slide-e1"></span>
+              <span id="slide-e2"></span>
+              <span id="slide-e3"></span>
+              <div class="image-container">
+                <img src={{ user_imagee1 }} class="slide" width="500" height="300" />
+                <img src={{ user_imagee2 }} class="slide" width="500" height="300" />
+                <img src={{ user_imagee3 }} class="slide" width="500" height="300" />
+
+              </div>
+              <div class="buttons">
+                <a href="#slide-e1"></a>
+                <a href="#slide-e2"></a>
+                <a href="#slide-e3"></a>
+
+              </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="col-lg-7">
+
+
+
+
+      <h2 class="font-weight-bold mb-3"><strong> Kidney Hospital </strong></h2>
+      <hr>
+      <p>hospital, an institution that is built, staffed, and equipped for the diagnosis of disease; for the treatment, both medical and surgical, of the sick and the injured; and for their housing during this process. The modern hospital also often serves as a centre for investigation and for teaching.
+      </p>
+
+      <p> <a><strong>completed</strong></a> in 34 days</p>
+
+
+
+
+
+    </div>
+
+
+  </div>
+
+  </section>
+  <br>
+  <hr>
+  <br>
+  
+  
+  
+  <div class="row align-items-center">
+
+
+    <div class="col-lg-5">
+
+      <section>
+        <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+
+          <head>
+            <title>Slideshow Images</title>
+            <style>
+              .slider {
+                width: 500px;
+                height: 300px;
+                background-color: yellow;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0px;
+                text-align: center;
+                overflow: hidden;
+              }
+
+              .image-container {
+                width: 1500px;
+                background-color: pink;
+                height: 300px;
+                clear: both;
+                position: relative;
+                -webkit-transition: left 2s;
+                -moz-transition: left 2s;
+                -o-transition: left 2s;
+                transition: left 2s;
+              }
+
+              .slide {
+                float: left;
+                margin: 0px;
+                padding: 0px;
+                position: relative;
+              }
+
+              #slide-d1:target~.image-container {
+                left: 0px;
+              }
+
+              #slide-d2:target~.image-container {
+                left: -500px;
+              }
+
+              #slide-d3:target~.image-container {
+                left: -1000px;
+              }
+
+              .buttons {
+                position: relative;
+                top: -20px;
+              }
+
+              .buttons a {
+                display: inline-block;
+                height: 15px;
+                width: 15px;
+                border-radius: 50px;
+                background-color: lightgreen;
+              }
+            </style>
+          </head>
+
+          <body>
+            <div class="slider"  style="width: 100%; max-width: 500px; ">
+              <span id="slide-d1"></span>
+              <span id="slide-d2"></span>
+              <span id="slide-d3"></span>
+              <div class="image-container">
+                <img src={{ user_imaged1 }} class="slide" width="500" height="300" />
+                <img src={{ user_imaged2 }} class="slide" width="500" height="300" />
+                <img src={{ user_imaged3 }} class="slide" width="500" height="300" />
+
+              </div>
+              <div class="buttons">
+                <a href="#slide-d1"></a>
+                <a href="#slide-d2"></a>
+                <a href="#slide-d3"></a>
+
+              </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="col-lg-7">
+
+
+
+
+      <h2 class="font-weight-bold mb-3"><strong> Sport Complex </strong></h2>
+      <hr>
+      <p>A sports complex is a group of sports facilities. For example, there are track and field stadiums, football stadiums, baseball stadiums, swimming pools, and Indoor arenas. This area is a sports complex, for fitness. Olympic Park is also a kind of Entertainment complex.
+      </p>
+
+      <p> <a><strong>completed</strong></a> in 1 year</p>
+
+
+
+
+
+    </div>
+
+
+  </div>
+
+  </section>
+  <br>
+  <hr>
+  <br>
+  <div class="row align-items-center">
+
+
+      <div class="col-lg-5">
+
+        <section>
+          <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+
+            <head>
+              <title>Slideshow Images</title>
+              <style>
+                .slider {
+                  width: 500px;
+                  height: 300px;
+                  background-color: yellow;
+                  margin-left: auto;
+                  margin-right: auto;
+                  margin-top: 0px;
+                  text-align: center;
+                  overflow: hidden;
+                }
+
+                .image-container {
+                  width: 1500px;
+                  background-color: pink;
+                  height: 300px;
+                  clear: both;
+                  position: relative;
+                  -webkit-transition: left 2s;
+                  -moz-transition: left 2s;
+                  -o-transition: left 2s;
+                  transition: left 2s;
+                }
+
+                .slide {
+                  float: left;
+                  margin: 0px;
+                  padding: 0px;
+                  position: relative;
+                }
+
+                #slide-f1:target~.image-container {
+                  left: 0px;
+                }
+
+                #slide-f2:target~.image-container {
+                  left: -500px;
+                }
+
+                
+                .buttons {
+                  position: relative;
+                  top: -20px;
+                }
+
+                .buttons a {
+                  display: inline-block;
+                  height: 15px;
+                  width: 15px;
+                  border-radius: 50px;
+                  background-color: lightgreen;
+                }
+              </style>
+            </head>
+
+            <body>
+              <div class="slider" style="width: 100%; max-width: 500px; ">
+                <span id="slide-f1"></span>
+                <span id="slide-f2"></span>
+                
+                <div class="image-container">
+                  <img src={{ user_imagef1 }} class="slide" width="500" height="300" />
+                  <img src={{ user_imagef2 }} class="slide" width="500" height="300" />
+                  
+
+                </div>
+                <div class="buttons">
+                  <a href="#slide-f1"></a>
+                  <a href="#slide-f2"></a>
+                  
+
+                </div>
+              </div>
+          </div>
+
+      </div>
+
+
+
+      <div class="col-lg-7">
+
+
+
+
+        <h2 class="font-weight-bold mb-3"><strong> Industrial & Labour Court </strong></h2>
+        <hr>
+        <p>Its function is to settle industrial disputes concerning any matter specified in the second schedule. Qualification for the appointment of a Presiding Officer of the Court. (i) He is or has been a judge of high court. (ii) He has for a period of not less than 3 years, been a district judge or an additional judge.
+        </p>
+
+        <p> <a><strong>completed</strong></a> in 8 months</p>
+
+
+
+
+
+      </div>
+
+
+    </div>
+
+    </section>
+    
+    <br>
+    <hr>
+    <br>
+    <div class="row align-items-center">
+
+
+      <div class="col-lg-5">
+
+        <section>
+          <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+
+            <head>
+              <title>Slideshow Images</title>
+              <style>
+                .slider {
+                  width: 500px;
+                  height: 300px;
+                  background-color: yellow;
+                  margin-left: auto;
+                  margin-right: auto;
+                  margin-top: 0px;
+                  text-align: center;
+                  overflow: hidden;
+                }
+
+                .image-container {
+                  width: 1500px;
+                  background-color: pink;
+                  height: 300px;
+                  clear: both;
+                  position: relative;
+                  -webkit-transition: left 2s;
+                  -moz-transition: left 2s;
+                  -o-transition: left 2s;
+                  transition: left 2s;
+                }
+
+                .slide {
+                  float: left;
+                  margin: 0px;
+                  padding: 0px;
+                  position: relative;
+                }
+
+                #slide-g1:target~.image-container {
+                  left: 0px;
+                }
+
+               
+
+                .buttons {
+                  position: relative;
+                  top: -20px;
+                }
+
+                .buttons a {
+                  display: inline-block;
+                  height: 15px;
+                  width: 15px;
+                  border-radius: 50px;
+                  background-color: lightgreen;
+                }
+              </style>
+            </head>
+
+            <body>
+              <div class="slider" style="width: 100%; max-width: 500px; ">
+                <span id="slide-g1"></span>
+                
+                <div class="image-container">
+                  <img src={{ user_imageg1 }} class="slide" width="500" height="300" />
+                 
+
+                </div>
+                <div class="buttons">
+                  <a href="#slide-g1"></a>
+                  
+
+                </div>
+              </div>
+          </div>
+
+      </div>
+
+
+
+      <div class="col-lg-7">
+
+
+
+
+        <h2 class="font-weight-bold mb-3"><strong> Staff Quarter</strong></h2>
+        <hr>
+        <p>Staff quarters are residential buildings constructed by the university management to accommodate qualified rent paying staff. Because of large number of buildings involved, the entire campus is divided into north and south and assigned to two sections of workers for effective maintenance services.
+        </p>
+
+        <p> <a><strong>completed</strong></a> in 6 months</p>
+
+
+
+
+
+      </div>
+
+
+    </div>
+
+    </section>
+
+
+    <br>
+    <hr>
+    <br>
+  
+  <div class="row align-items-center">
+
+
+    <div class="col-lg-5">
+
+      <section>
+        <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+
+          <head>
+            
+            
+            <style>
+              .slider {
+                width: 500px;
+                height: 300px;
+                background-color: yellow;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0px;
+                text-align: center;
+                overflow: hidden;
+              }
+
+              .image-container {
+                width: 1500px;
+                background-color: pink;
+                height: 300px;
+
+                clear: both;
+                position: relative;
+                -webkit-transition: left 2s;
+                -moz-transition: left 2s;
+                -o-transition: left 2s;
+                transition: left 2s;
+              }
+
+              .slide {
+                float: left;
+                margin: 0px;
+                padding: 0px;
+                position: relative;
+              }
+
+              #slide-1:target~.image-container {
+                left: 0px;
+              }
+
+              #slide-2:target~.image-container {
+                left: -500px;
+              }
+
+              #slide-3:target~.image-container {
+                left: -1000px;
+              }
+
+              .buttons {
+                position: relative;
+                top: -20px;
+              }
+
+              .buttons a {
+                display: inline-block;
+                height: 15px;
+                width: 15px;
+                border-radius: 50px;
+                background-color: lightgreen;
+              }
+            </style>
+          </head>
+
+          <body>
+            <div class="slider" style="width: 100%; max-width: 500px; ">
+              <span id="slide-1"></span>
+              <span id="slide-2"></span>
+              <span id="slide-3"></span>
+              <div class="image-container">
+                <img src={{ user_image4 }} class="slide" width="500" height="300" />
+                <img src={{ user_image2 }} class="slide" width="500" height="300" />
+                <img src={{ user_image3 }} class="slide" width="500" height="300" />
+
+              </div>
+              <div class="buttons">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+  
+              </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-lg-7">
+
+
+
+
+      <h2 class="font-weight-bold mb-3"><strong>Auditorium</strong></h2>
+      <hr>
+      <p> the part of a public building where an audience sits, as distinct from the stage, the area on which the performance or other object of the audience's attention is presented.</p>
+
+        <p> <a><strong>completed</strong></a> in 8 months</p>
+
+
+
+
+    </div>
+
+
+  </div>
+
+  <br>
+  <hr>
+  <br>
+
+
+
+      <div class="row align-items-center">
+
+
+      <div class="col-lg-5">
+
+        <section>
+          <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+
+            <head>
+              
+              <style>
+                .slider {
+                  width: 500px;
+                  height: 300px;
+                  background-color: yellow;
+                  margin-left: auto;
+                  margin-right: auto;
+                  margin-top: 0px;
+                  text-align: center;
+                  overflow: hidden;
+                }
+    
+                .image-container {
+                  width: 1500px;
+                  background-color: pink;
+                  height: 300px;
+                  clear: both;
+                  padding-left: 0%;
+                  position: relative;
+                  -webkit-transition: left 2s;
+                  -moz-transition: left 2s;
+                  -o-transition: left 2s;
+                  transition: left 2s;
+                }
+    
+                .slide {
+                  float: left;
+                  margin: 0px;
+                  padding: 0px;
+                  position: relative;
+                }
+    
+                #slide-a1:target~.image-container {
+                  left: 0px;
+                }
+    
+                #slide-a2:target~.image-container {
+                  left: -500px;
+                }
+    
+                #slide-a3:target~.image-container {
+                  left: -1000px;
+                }
+    
+                .buttons {
+                  position: relative;
+                  top: -20px;
+                }
+    
+                .buttons a {
+                  display: inline-block;
+                  height: 15px;
+                  width: 15px;
+                  border-radius: 50px;
+                  background-color: lightgreen;
+                }
+              </style>
+            </head>
+    
+            <body>
+              <div class="slider" style="width: 100%; max-width: 500px; ">
+                <span id="slide-a1"></span>
+                <span id="slide-a2"></span>
+                <span id="slide-a3"></span>
+                <div class="image-container">
+                  <img src={{ user_imagea1 }} class="slide" width="500" height="300" />
+                  <img src={{ user_imagea2 }} class="slide" width="500" height="300" />
+                  <img src={{ user_imagea3 }} class="slide" width="500" height="300" />
+    
+                </div>
+                <div class="buttons">
+                  <a href="#slide-a1"></a>
+                  <a href="#slide-a2"></a>
+                  <a href="#slide-a3"></a>
+    
+                </div>
+              </div>
+          </div>
+
+      </div>
+      <div class="col-lg-7">
+
+
+
+
+        <h2 class="font-weight-bold mb-3"><strong>Shopping Center</strong></h2>
+        <hr>
+        <p>A shopping centre is a collection of independent retail stores, services, and a parking area conceived, constructed, and maintained by a management firm as a unit. Shopping centres may also contain restaurants, banks, theatres, professional offices, service stations, and other establishments.</p>
+
+          <p> <a><strong>completed</strong></a> in 8 months</p>
+
+
+
+
+      </div>
+
+
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    
+
+    <div class="row align-items-center">
+
+
+      <div class="col-lg-5">
+
+        <section>
+          <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+
+            <head>
+              <title>Slideshow Images</title>
+              <style>
+                .slider {
+                  width: 500px;
+                  height: 300px;
+                  background-color: yellow;
+                  margin-left: auto;
+                  margin-right: auto;
+                  margin-top: 0px;
+                  text-align: center;
+                  overflow: hidden;
+                }
+
+                .image-container {
+                  width: 1500px;
+                  background-color: pink;
+                  height: 300px;
+                  clear: both;
+                  position: relative;
+                  -webkit-transition: left 2s;
+                  -moz-transition: left 2s;
+                  -o-transition: left 2s;
+                  transition: left 2s;
+                }
+
+                .slide {
+                  float: left;
+                  margin: 0px;
+                  padding: 0px;
+                  position: relative;
+                }
+
+                #slide-c1:target~.image-container {
+                  left: 0px;
+                }
+
+                #slide-c2:target~.image-container {
+                  left: -500px;
+                }
+
+                #slide-c3:target~.image-container {
+                  left: -1000px;
+                }
+
+                .buttons {
+                  position: relative;
+                  top: -20px;
+                }
+
+                .buttons a {
+                  display: inline-block;
+                  height: 15px;
+                  width: 15px;
+                  border-radius: 50px;
+                  background-color: lightgreen;
+                }
+              </style>
+            </head>
+
+            <body>
+              <div class="slider" style="width: 100%; max-width: 500px; ">
+                <span id="slide-c1"></span>
+                <span id="slide-c2"></span>
+                <span id="slide-c3"></span>
+                <div class="image-container">
+                  <img src={{ user_imagec1 }} class="slide" width="500" height="300" />
+                  <img src={{ user_imagec2 }} class="slide" width="500" height="300" />
+                  <img src={{ user_imagec3 }} class="slide" width="500" height="300" />
+
+                </div>
+                <div class="buttons">
+                  <a href="#slide-c1"></a>
+                  <a href="#slide-c2"></a>
+                  <a href="#slide-c3"></a>
+
+                </div>
+              </div>
+          </div>
+
+      </div>
+
+
+
+      <div class="col-lg-7">
+
+
+
+
+        <h2 class="font-weight-bold mb-3"><strong> Shelter </strong></h2>
+        <hr>
+        <p>helter home means a place of temporary refuge, offered on a 24-hour, seven-day per week basis to victims of domestic violence and their children.
+        </p>
+
+        <p> <a><strong>completed</strong></a> in 6 months</p>
+
+
+  
+
+
+
+      </div>
+
+
+    </div>
+
+    </section>
+
+
+
+    <br>
+    <hr>
+    <br>
+
+
+    <div class="row align-items-center">
+
+
+      <div class="col-lg-5">
+
+        <section>
+          <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+
+            <head>
+              <title>Slideshow Images</title>
+              <style>
+                .slider {
+                  width: 500px;
+                  height: 300px;
+                  background-color: yellow;
+                  margin-left: auto;
+                  margin-right: auto;
+                  margin-top: 0px;
+                  text-align: center;
+                  overflow: hidden;
+                }
+
+                .image-container {
+                  width: 1500px;
+                  background-color: pink;
+                  height: 300px;
+                  clear: both;
+                  position: relative;
+                  -webkit-transition: left 2s;
+                  -moz-transition: left 2s;
+                  -o-transition: left 2s;
+                  transition: left 2s;
+                }
+
+                .slide {
+                  float: left;
+                  margin: 0px;
+                  padding: 0px;
+                  position: relative;
+                }
+
+                #slide-b1:target~.image-container {
+                  left: 0px;
+                }
+
+                #slide-b2:target~.image-container {
+                  left: -500px;
+                }
+
+                #slide-b3:target~.image-container {
+                  left: -1000px;
+                }
+
+                .buttons {
+                  position: relative;
+                  top: -20px;
+                }
+
+                .buttons a {
+                  display: inline-block;
+                  height: 15px;
+                  width: 15px;
+                  border-radius: 50px;
+                  background-color: lightgreen;
+                }
+              </style>
+            </head>
+
+            <body>
+              <div class="slider"  style="width: 100%; max-width: 500px; ">
+                <span id="slide-b1"></span>
+                <span id="slide-b2"></span>
+                <span id="slide-b3"></span>
+                <div class="image-container">
+                  <img src={{ user_imageb1 }} class="slide" width="500" height="300" />
+                  <img src={{ user_imageb2 }} class="slide" width="500" height="300" />
+                  <img src={{ user_imageb3 }} class="slide" width="500" height="300" />
+
+                </div>
+                <div class="buttons">
+                  <a href="#slide-b1"></a>
+                  <a href="#slide-b2"></a>
+                  <a href="#slide-b3"></a>
+
+                </div>
+              </div>
+          </div>
+
+      </div>
+
+
+
+      <div class="col-lg-7">
+
+
+
+
+        <h2 class="font-weight-bold mb-3"><strong> Punagam Road </strong></h2>
+        <hr>
+        <p>Roller compacted concrete (RCC) is a tough, durable type of concrete pavement that is well suited for heavy industrial applications, as well as low-speed roads and arterial roads. Roller compacted concrete draws its name from the construction practices used to place and finish the material.
+        </p>
+
+        <p> <a><strong>completed</strong></a> in 3 months</p>
+
+
+
+
+
+      </div>
+
+
+    </div>
+
+    </section>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  </div>
+
+
+  </section>
+
+
+
+
+
+
+
+  </div>
+
+
+  </div>
+
+
+  <hr class="my-5">
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  </div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+
+</html>
